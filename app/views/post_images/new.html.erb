@@ -4,7 +4,7 @@
       <h5 class="text-dark bg-light p-4 mb-0">画像投稿フォーム</h5>
       <div class="form-body p-4">
         <% if @post_image.errors.any? %>
-          <%= @post_image.errors.count %>件のエラーが発生しました
+          <%= @post_image.errors.count %>件のエラーが発生しまし
           <% @post_image.errors.full_messages.each do |message| %>
             <%= message %>
           <% end %>
